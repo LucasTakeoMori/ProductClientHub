@@ -1,6 +1,6 @@
-﻿namespace ProductClientHub.Communication.Responses
+﻿namespace ProductClientHub.API.Entities
 {
-    public class ResponseClientJson
+    public class Client
     {
         public Guid Id { get; set; }
 
@@ -8,6 +8,6 @@
 
         public string Email { get; set; } = string.Empty;
 
-        public List<ResponseShortProductJson> Products { get; set; } = [];
+        public List<Product> Products { get; set; } = [];
     }
 }
